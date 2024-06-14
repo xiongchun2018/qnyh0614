@@ -4,7 +4,7 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.layout.BorderPane?>
-<BorderPane xmlns:fx="http://java.sun.com/JSP/Page" fx:controller="com.example.demo.MyViewController">
+<BorderPane xmlns:fx="http://java.sun.com/JSP/Page" fx:controller="com.qnyh.qnyhrecordinginstrument.MyViewController">
     <top><Label text="Top Label"/></top>
     <bottom><Button text="Bottom Button"/></bottom>
     <left><Button text="Left Button"/></left>

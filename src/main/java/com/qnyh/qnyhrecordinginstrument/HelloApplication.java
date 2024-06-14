@@ -1,4 +1,4 @@
-package com.example.qnyhrecordinginstrument;
+package com.qnyh.qnyhrecordinginstrument;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
