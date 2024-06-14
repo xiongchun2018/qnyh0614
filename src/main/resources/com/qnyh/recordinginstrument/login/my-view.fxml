@@ -4,12 +4,12 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.layout.BorderPane?>
-<BorderPane xmlns:fx="http://java.sun.com/JSP/Page" fx:controller="com.qnyh.qnyhrecordinginstrument.MyViewController">
+<BorderPane xmlns:fx="http://java.sun.com/JSP/Page" fx:controller="com.qnyh.recordinginstrument.controller.MyViewController">
     <top><Label text="Top Label"/></top>
     <bottom><Button text="Bottom Button"/></bottom>
     <left><Button text="Left Button"/></left>
     <right><Button text="Right Button"/></right>
     <center>
-        <fx:include source="hello-view.fxml"/>
+        <fx:include source="../main/hello-view.fxml"/>
     </center>
 </BorderPane>

@@ -1,0 +1,25 @@
+#mainBorderPane {
+    /*最小宽高*/
+    -fx-min-width: 400px;
+    -fx-min-height: 300px;
+}
+.top-pane {
+    -fx-background-color: #58a4b0;
+    -fx-padding: 10px;
+}
+.bottom-pane {
+    -fx-background-color: #53c982;
+    -fx-padding: 10px;
+}
+.left-pane {
+    -fx-background-color: #4183d0;
+    -fx-padding: 10px;
+}
+.right-pane {
+    -fx-background-color: #eace70;
+    -fx-padding: 10px;
+}
+.center-pane {
+    -fx-background-color: #b16fe7;
+    -fx-padding: 10px;
+}

@@ -61,7 +61,7 @@
                         <id>default-cli</id>
                         <configuration>
                             <mainClass>
-                                com.example.qnyhrecordinginstrument/com.qnyh.qnyhrecordinginstrument.HelloApplication
+                                com.example.qnyhrecordinginstrument/com.qnyh.recordinginstrument.MainApplication
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>

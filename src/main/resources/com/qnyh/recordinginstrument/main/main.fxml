@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.BorderPane?>
+<?import java.net.URL?>
+<?import javafx.scene.layout.StackPane?>
+<BorderPane xmlns:fx="http://java.sun.com/JSP/Page"
+            fx:controller="com.qnyh.recordinginstrument.controller.MyViewController"
+            fx:id="mainBorderPane">
+
+    <!--上部-->
+    <top>
+        <StackPane styleClass="top-pane">
+                <Button text="Top Button"/>
+        </StackPane>
+    </top>
+
+    <!--下部-->
+    <bottom>
+        <StackPane styleClass="bottom-pane">
+                <Button text="Bottom Button"/>
+        </StackPane>
+    </bottom>
+
+    <!--左边-->
+    <left>
+        <StackPane styleClass="left-pane">
+            <Button text="Left Button"/>
+        </StackPane>
+    </left>
+
+    <!--右边-->
+    <right>
+        <StackPane styleClass="right-pane">
+            <Button text="Right Button"/>
+        </StackPane>
+    </right>
+
+    <!--中间-->
+    <center>
+        <StackPane styleClass="center-pane">
+
+        </StackPane>
+    </center>
+
+    <!--样式文件-->
+    <stylesheets>
+        <URL value="@css/main.css" />
+    </stylesheets>
+</BorderPane>
